@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br"></html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Desenvolvedor M3</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <header>
+        <div class="topo">
+            <div class="container">
+                <div class="topoint">
+                    <div class="logo"><img src="layout/imagens/logo-m3.png" alt="M3 Performance Digital" title="M3 Performance Digital"></div>
+                    <div class="sacola"><img src="layout/imagens/sacola.png" alt="Sacola" title="Sacola"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <div class="topoint">
+                <div class="filtrarordenar"><button>Filtrar</button><button>Ordernar</button></div>
+            </div>
+        </div>
+        <div class="ordenar">
+            <div class="container">
+                <div class="topoint">
+                    <select id="ordenar" name="Ordenar por:">
+                        <option value="Mais recentes">Mais recentes</option>
+                        <option value="Menor preço">Maior preço</option>
+                        <option value="Maior preço">Maior preço</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="sidefiltros">
+                <h1>Blusas</h1>
+                <div class="filtros" id="filtroCores">
+                    <h2>Cores</h2>
+                </div>
+                <div class="filtros" id="filtroTamanhos">
+                    <h2>Tamanhos</h2>
+                    <button>P</button>
+                    <button>M</button>
+                    <button>G</button>
+                    <button>GG</button>
+                    <button>U</button>
+                    <button>36</button>
+                    <button>38</button>
+                    <button>40</button>
+                    <button>42</button>
+                    <button>44</button>
+                    <button>46</button>
+                </div>
+                <div class="filtros" id="filtroPrecos">
+                    <h2>Faixa de Preços</h2>
+                    <input type="checkbox" id="faixa1" name="faixa1" value="faixa1">
+                    <label for="faixa1">de R$ 0 até R$ 50</label><br>
+                    <input type="checkbox" id="faixa2" name="faixa2" value="faixa2">
+                    <label for="faixa2">de R$ 51 até R$ 150</label><br>
+                    <input type="checkbox" id="faixa3" name="faixa3" value="faixa3">
+                    <label for="faixa3">de R$ 151 até R$ 300</label><br>
+                    <input type="checkbox" id="faixa4" name="faixa4" value="faixa4">
+                    <label for="faixa4">de R$ 301 até R$ R$ 500</label><br>
+                    <input type="checkbox" id="faixa5" name="faixa5" value="faixa5">
+                    <label for="faixa5">a partir de R$ 500</label><br>
+                </div>
+            </div>
+            <div class="conteudo" id="conteudo">
+
+            </div>
+        </div>
+        <div class="ver-mais"><button>Carregar Mais</button></div>
+
+    </section>
+    <footer>
+        <div class="rodape">
+            <div class="container">
+                Agência M3 - Agência de Performance Digital
+            </div>
+        </div>
+    </footer>
+    <script src='jquery-3.5.0.min.js'></script>
+    <script src='produtos.js'></script>
+    <script src='main.js'></script>
+</body>
+</html> 
